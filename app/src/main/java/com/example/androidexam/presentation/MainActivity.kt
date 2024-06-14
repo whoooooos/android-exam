@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // handle re-fetching of images on swipe
+        // handle re-fetching of persons on swipe
         binding.swipe.setOnRefreshListener {
             personAdapter.refresh()
         }
